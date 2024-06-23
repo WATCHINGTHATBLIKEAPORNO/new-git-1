@@ -8,8 +8,8 @@ local Lib = {
         StartZ = -335,
         CurrentZ = -335,
         MaxIterations = 13,
-        MaxPerRow = 3,
-        CurrentPerRow = 3
+        MaxPerRow = 10,
+        CurrentPerRow = 8
     },
     admin = {
         MultiplierX = -18,
@@ -20,8 +20,8 @@ local Lib = {
         StartZ = -622,
         CurrentZ = -622,
         MaxIterations = 7,
-        MaxPerRow = 6,
-        CurrentPerRow = 6
+        MaxPerRow = 9,
+        CurrentPerRow = 12
     },
     train = {
         MultiplierX = -14,
@@ -32,7 +32,7 @@ local Lib = {
         StartZ = -46,
         CurrentZ = -46,
         MaxIterations = 7,
-        MaxPerRow = 6,
+        MaxPerRow = 7,
         CurrentPerRow = 6
     },
     jail = {
@@ -57,7 +57,7 @@ local Lib = {
         CurrentZ = 233,
         MaxIterations = 5,
         MaxPerRow = 8,
-        CurrentPerRow = 8
+        CurrentPerRow = 10
     },
     basketball = {
         MultiplierX = -17.8,
