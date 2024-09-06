@@ -25,5 +25,5 @@ return function()
     else
         Final = Money
     end
-    saymsg(">> "..tostring(Final).." is dropped <<")
+    saymsg(" "..tostring(Final).." is currently on the ground ")
 end
