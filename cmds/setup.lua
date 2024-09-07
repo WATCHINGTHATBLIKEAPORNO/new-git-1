@@ -8,8 +8,8 @@ local Lib = {
         StartZ = -335,
         CurrentZ = -335,
         MaxIterations = 13,
-        MaxPerRow = 4,
-        CurrentPerRow = 4
+        MaxPerRow = 3,
+        CurrentPerRow = 3
     },
     admin = {
         MultiplierX = -18,
