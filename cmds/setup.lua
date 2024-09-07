@@ -1,15 +1,15 @@
 local Lib = {
     bank = {
-        MultiplierX = -11,
-        MultiplierZ = 10,
+        MultiplierX = -6,
+        MultiplierZ = 5,
         StartX = -364,
         CurrentX = -364,
         StartY = 21,
         StartZ = -335,
         CurrentZ = -335,
         MaxIterations = 13,
-        MaxPerRow = 5,
-        CurrentPerRow = 5
+        MaxPerRow = 4,
+        CurrentPerRow = 4
     },
     admin = {
         MultiplierX = -18,
