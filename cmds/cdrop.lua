@@ -6,7 +6,7 @@ workspace.Ignored.Drop.ChildAdded:Connect(function(child)
         cur = cur + tonumber(g)
         if cur >= goal then
             game:service"RunService":UnbindFromRenderStep("CDROP_FUNCTION")
-            saymsg("Drop has completed")
+            saymsg("Request Has Completed")
         end
         if getgenv().LOOPDESTROY_ACTIVE == true then
             child:Destroy()
@@ -44,7 +44,7 @@ return function(...)
     cur = 0
     goal = tonumber(converted)
 
-    saymsg("Started...")
+    saymsg("Request Has Started")
     game:service"RunService":BindToRenderStep("CDROP_FUNCTION",1,function()
         game:service"ReplicatedStorage".MainEvent:FireServer("DropMoney",10000)
     end)
