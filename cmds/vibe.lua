@@ -20,10 +20,10 @@ return function(...)
     end
     if tostring(data[2]):lower() == "1" then
         StopDance()
-        PlayDance("Dance_1","rbxassetid://3189773368")
+        PlayDance("Dance_1","rbxassetid://17748346932")
     elseif tostring(data[2]):lower() == "2" then
         StopDance()
-        PlayDance("Dance_1","rbxassetid://3189776546")
+        PlayDance("Dance_1","rbxassetid://14548711723")
     elseif tostring(data[2]):lower() == "stop" then
         StopDance()
     end
