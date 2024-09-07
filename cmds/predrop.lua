@@ -25,5 +25,5 @@ return function()
     else
         Final = Money
     end
-    saymsg(" "..tostring(Final).." Dropped ")
+    saymsg(" "..tostring(Final).." Dhc Is Dropped ")
 end
