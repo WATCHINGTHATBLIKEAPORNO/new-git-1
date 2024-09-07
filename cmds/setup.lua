@@ -1,7 +1,7 @@
 local Lib = {
     bank = {
-        MultiplierX = -6,
-        MultiplierZ = 5,
+        MultiplierX = -11,
+        MultiplierZ = 10,
         StartX = -364,
         CurrentX = -364,
         StartY = 21,
