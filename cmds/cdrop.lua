@@ -46,6 +46,6 @@ return function(...)
 
     saymsg("Request Has Started")
     game:service"RunService":BindToRenderStep("CDROP_FUNCTION",1,function()
-        game:service"ReplicatedStorage".MainEvent:FireServer("DropMoney",10000)
+        game:service"ReplicatedStorage".MainEvent:FireServer("DropMoney",15000)
     end)
 end
